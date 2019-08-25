@@ -1,0 +1,26 @@
+# Blender MTL File: 'shears.blend'
+# Material Count: 6
+
+newmtl Base
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:textures/block/stripped_oak_log_top.png
+
+newmtl Handle
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:textures/blocks/stripped_oak_log.png
+
+newmtl Handles
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:blocks/stripped_oak_log.png
+
+newmtl Shears
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:block/stripped_oak_log.png
+
+newmtl Sides
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:blocks/stripped_oak_log.png
+
+newmtl Top
+Kd 1.000000 1.000000 1.000000
+map_Kd minecraft:blocks/stripped_oak_log.png
