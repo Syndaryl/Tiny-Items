@@ -1,4 +1,4 @@
-package com.syndayrl.minecraft.item;
+package com.syndaryl.minecraft.item;
 
 import org.apache.logging.log4j.Level;
 

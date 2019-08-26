@@ -2,8 +2,8 @@ package com.syndaryl.minecraft;
 
 import org.apache.logging.log4j.Level;
 
-import com.syndayrl.minecraft.item.Items;
-import com.syndayrl.minecraft.item.ShearsWoodItem;
+import com.syndaryl.minecraft.item.Items;
+import com.syndaryl.minecraft.item.ShearsWoodItem;
 
 import net.minecraft.block.Block;
 import net.minecraft.client.renderer.model.IBakedModel;
