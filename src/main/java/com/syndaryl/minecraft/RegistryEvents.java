@@ -1,23 +1,12 @@
 package com.syndaryl.minecraft;
 
-import org.apache.logging.log4j.Level;
-
-import com.syndaryl.minecraft.item.Items;
-import com.syndaryl.minecraft.item.ShearsWoodItem;
+import com.syndaryl.minecraft.client.item.Baker;
+import com.syndaryl.minecraft.common.item.ShearsWoodItem;
 
 import net.minecraft.block.Block;
-import net.minecraft.client.renderer.model.IBakedModel;
-import net.minecraft.client.renderer.model.IUnbakedModel;
-import net.minecraft.client.renderer.model.ModelResourceLocation;
-import net.minecraft.client.renderer.vertex.DefaultVertexFormats;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.client.event.ModelBakeEvent;
-import net.minecraftforge.client.model.BasicState;
-import net.minecraftforge.client.model.ModelLoader;
-import net.minecraftforge.client.model.ModelLoaderRegistry;
-import net.minecraftforge.client.model.obj.OBJModel;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -29,8 +18,9 @@ public class RegistryEvents {
     @SubscribeEvent
     public static void onModelBakeEvent(ModelBakeEvent event) {  
     	SyndarylMod.LOGGER.info("HELLO from onModelBakeEvent()");
-        Items.bakeObjModel(event, "item/shears.obj", "wood_shears");
-        Items.bakeObjModel(event, "item/mug.obj", "mug");
+    	Baker baker = new Baker(event);
+    	baker.bakeObjModel("item/shears.obj", "wood_shears");
+    	baker.bakeObjModel("item/mug.obj", "mug");
     }
 
     
