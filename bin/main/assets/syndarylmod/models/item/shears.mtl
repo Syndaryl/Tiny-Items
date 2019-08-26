@@ -1,0 +1,14 @@
+# Blender MTL File: 'shears.blend'
+# Material Count: 2
+
+newmtl Handles
+Kd 1 1 1
+d 1.000000
+illum 0
+map_Kd syndarylmod:textures/item/shears_3d.png
+
+newmtl Shears
+Kd 1 1 1
+d 1.000000
+illum 0
+map_Kd syndarylmod:textures/items/shears_3d.png

@@ -1,0 +1,27 @@
+# Blender MTL File: 'MinecraftMug.blend'
+# Material Count: 5
+
+newmtl Base
+Kd 1 1 1
+d 1.000000
+map_Kd minecraft:block/stripped_oak_log_top.png
+
+newmtl Handle
+Kd 1 1 1
+d 1.000000
+map_Kd minecraft:block/stripped_oak_log.png
+
+newmtl Sides
+Kd 1 1 1
+d 1.000000
+map_Kd minecraft:block/stripped_oak_log.png
+
+newmtl Sides_StrippedOakLog
+Kd 1 1 1
+d 1.000000
+map_Kd minecraft:block/stripped_oak_log.png
+
+newmtl Top
+Kd 1 1 1
+d 1.000000
+map_Kd minecraft:block/stripped_oak_log_top.png
