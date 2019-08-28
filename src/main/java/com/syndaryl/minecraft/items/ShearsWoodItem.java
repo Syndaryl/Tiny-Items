@@ -1,4 +1,4 @@
-package com.syndaryl.minecraft.common.item;
+package com.syndaryl.minecraft.items;
 
 import net.minecraft.item.ShearsItem;
 public class ShearsWoodItem extends ShearsItem {

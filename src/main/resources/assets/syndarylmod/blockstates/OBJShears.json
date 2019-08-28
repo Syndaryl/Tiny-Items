@@ -1,0 +1,44 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"__comment": "the identifier must be a name of a material defined by the \"model\" obj's .mtl file",
+		"textures": {
+			"#Handles": "shears_3d",
+			"#Shears": "shears_3d"
+		},
+		"model": "syndarylmod:shears"
+	},
+	"variants": {
+		"normal": [
+			{
+			}
+		],
+		"inventory": [
+			{
+				"transform": "forge:default-block"
+			}
+		],
+		"material": {
+			"wood": {
+				"textures": {
+					"#Shears": "shears_3d_wood"
+				}
+			},
+			"clay": {
+				"textures": {
+					"#Shears": "shears_3d_clay"
+				}
+			},
+			"gold": {
+				"textures": {
+					"#Shears": "shears_3d_gold"
+				}
+			},
+			"diamond": {
+				"textures": {
+					"#Shears": "shears_3d_diamond"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+    	"__comment": "the identifier must be a name of a material defined by the \"model\" obj's .mtl file",
+        "textures": {
+            "#Base": "stripped_oak_log_top",
+            "#Handle": "stripped_oak_log",
+            "#Sides": "blocks/stripped_oak_log",
+            "#Top": "blocks/stripped_oak_log_top"
+        },
+        "model": "syndarylmod:mug"
+     },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{
+            "transform": "forge:default-block"
+        }]
+    }
+}

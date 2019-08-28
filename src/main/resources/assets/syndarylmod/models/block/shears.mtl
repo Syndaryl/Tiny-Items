@@ -5,10 +5,10 @@ newmtl Handles
 Kd 1 1 1
 d 1.000000
 illum 0
-map_Kd syndarylmod:textures/item/shears_3d.png
+map_Kd syndarylmod:item/shears_3d
 
 newmtl Shears
 Kd 1 1 1
 d 1.000000
 illum 0
-map_Kd syndarylmod:textures/items/shears_3d.png
+map_Kd syndarylmod:items/shears_3d

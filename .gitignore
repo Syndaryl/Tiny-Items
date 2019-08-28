@@ -11,6 +11,9 @@ run\
 
 # Compiled class file #
 *.class
+*.dll
+*.lock
+*.bin
 
 # Log file #
 *.log

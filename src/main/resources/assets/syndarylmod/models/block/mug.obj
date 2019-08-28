@@ -1,7 +1,7 @@
 # Blender v2.79 (sub 7) OBJ File: 'shears.blend'
 # www.blender.org
 mtllib mug.mtl
-o Mug_Cube
+o Mug
 v 0.333125 0.492269 0.501676
 v 0.333125 0.492269 0.668551
 v 0.333125 0.826021 0.668551

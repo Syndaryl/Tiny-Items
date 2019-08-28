@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.syndaryl.minecraft.client.item;
+package com.syndaryl.minecraft.client;
 
 import java.util.function.Function;
 
