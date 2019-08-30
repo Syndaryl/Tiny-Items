@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: Minecraft-MugItem
-Implementation-Version: 1.0
-Specification-Vendor: examplemodsareus
-Specification-Title: examplemod
-Implementation-Timestamp: 2019-08-25T17:48:31-0400
-Specification-Version: 1
-Implementation-Vendor: examplemodsareus
-
